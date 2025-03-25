@@ -15,7 +15,7 @@ Say you have a JSON object like this:
   "createdAt": "2025-03-23T15:30:00Z",
   "profile": {
     "age": 29,
-    "gender": "non-binary",
+    "gender": "male",
     "location": {
       "city": "San Francisco",
       "state": "CA",
@@ -45,7 +45,7 @@ The JCM filters this down to only the **essential** data:
   "isActive": true,
   "profile": {
     "age": 29,
-    "gender": "non-binary",
+    "gender": "male",
     "location": {
       "city": "San Francisco",
       "state": "CA",
